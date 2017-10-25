@@ -1,0 +1,29 @@
+{
+    "name": "hugomelo92/laravel-mongodb",
+    "description": "MongoDB facade for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hugo Melo",
+            "email": "hugo.meloo@hotmail.com"
+        }
+    ],
+	"require": {
+		"mongodb/mongodb": "^1.1"
+    },
+	"autoload": {
+        "psr-4": {
+            "Hugomelo92\\Mongo\\": "src/"
+        }
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Hugomelo92\\Mongo\\MongoServiceProvider"
+			],
+			"aliases": {
+				"Mongo": "Hugomelo92\\Mongo\\MongoFacade"
+			}
+		}
+	}
+}
