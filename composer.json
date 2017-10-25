@@ -1,5 +1,5 @@
 {
-    "name": "hugomelo92/laravel-mongodb",
+    "name": "hugomelo92/laravel-mongo",
     "description": "MongoDB facade for Laravel",
     "license": "MIT",
     "authors": [
